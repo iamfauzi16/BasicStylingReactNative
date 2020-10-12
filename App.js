@@ -9,15 +9,20 @@ import { View, ScrollView } from 'react-native';
 import SampleComponent from './SampleComponent';
 import StylingReactNativeComponent from './StylingReactNative';
 import DinamisComponent from './DinamisComponent';
+import MateriFlexBox from './MateriFlexBox';
+import PositionReactNative from './PositionReactNative';
 
 //! ini adalah function component menggunakan function atau arrow function ()=>
 const App = () => {
   return (
     <View>
       <ScrollView>
-        <DinamisComponent />    
+        <PositionReactNative />
+
+        {/* <MateriFlexBox />
+        <DinamisComponent />
         <StylingReactNativeComponent />
-        <SampleComponent />
+        <SampleComponent /> */}
       </ScrollView>
     </View>
 
