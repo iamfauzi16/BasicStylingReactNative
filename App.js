@@ -3,6 +3,8 @@
 //  TODO : Mengenal text,view,input text, image[v]
 //  TODO : Membuat Class Component [v]
 // TODO : Membuat Basic Styling [v]
+//  TODO : Mengenal Export dan import [v] 
+// TODO : Merapihkan code/ mempersingkat [v]
 
 import React from 'react';
 import { View, ScrollView } from 'react-native';

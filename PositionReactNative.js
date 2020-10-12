@@ -1,3 +1,8 @@
+// TODO Belajar Position pada react native [v]
+// TODO membuat notifikasi didalam Icon [v]
+// TODO merapihkan styling menggunakan StyleSheet [v]
+// TODO Installasi Extension es7 [v]
+
 import React, { Component } from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
 import shopping from './shopping.png';

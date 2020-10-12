@@ -1,3 +1,9 @@
+// TODO Belajar tata letak pada react native menggunakan flexbox [v]
+//  TODO Mengenal Fungsi FlexDirection > column, row,  colum-reserve, row-reserve
+//  TODO Mengenal AlignItems [v]
+//  Mengejal JustifyContent [v]
+
+
 import React, { Component } from 'react';
 import { Image, Text, View } from 'react-native';
 
