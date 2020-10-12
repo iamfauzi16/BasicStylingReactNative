@@ -5,7 +5,7 @@
 
 
 import React, { Component } from 'react';
-import { Image, Text, View } from 'react-native';
+import { Image, Text, View, StyleSheet } from 'react-native';
 
 
 class MateriFlexBox extends Component {
@@ -34,15 +34,37 @@ class MateriFlexBox extends Component {
                     </View>
                 </View>
                 <View style={{flexDirection: 'row', justifyContent: 'space-around', marginTop: 20}}>
-                    <Text>Post</Text>
-                    <Text>Follower</Text>
-                    <Text>Following</Text>
+                    <View>
+                        <Text style={styles.header}>Post</Text>
+                        <Text style={styles.paragraf}>1,52k</Text>
+                    </View>
+
+                    <View>
+                        <Text style={styles.header}>Follower</Text>
+                        <Text style={styles.paragraf}>32k</Text>
+                    </View>
+
+                    <View>
+                        <Text style={styles.header}>Following</Text>
+                        <Text style={styles.paragraf}>2k</Text>
+                    </View>
                 </View>
             </View>
         )
     }
-}
+};
 
+const styles = StyleSheet.create({
+    header: {
+        fontSize: 20,
+        fontWeight: 'bold',
+    
+    },
+
+    paragraf: {
+        fontSize: 15
+    }
+})
 
 
 

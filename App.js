@@ -19,10 +19,9 @@ const App = () => {
   return (
     <View>
       <ScrollView>
-        <PositionReactNative />
-
-        {/* <MateriFlexBox />
-        <DinamisComponent />
+        {/* <PositionReactNative /> */}
+        <MateriFlexBox />
+        {/* <DinamisComponent />
         <StylingReactNativeComponent />
         <SampleComponent /> */}
       </ScrollView>
