@@ -8,7 +8,7 @@ import React, { Component } from 'react';
 import { Image, Text, View, StyleSheet } from 'react-native';
 
 
-class MateriFlexBox extends Component {
+class FlexBox extends Component {
     render () {
         return (
             <View>
@@ -36,7 +36,6 @@ class MateriFlexBox extends Component {
                 <View style={{flexDirection: 'row', justifyContent: 'space-around', marginTop: 20}}>
                     <View>
                         <Text style={styles.header}>Post</Text>
-                        <Text style={styles.paragraf}>1,52k</Text>
                     </View>
 
                     <View>
@@ -68,4 +67,4 @@ const styles = StyleSheet.create({
 
 
 
-export default MateriFlexBox;
+export default FlexBox;

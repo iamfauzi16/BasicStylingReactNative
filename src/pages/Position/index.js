@@ -5,8 +5,9 @@
 
 import React, { Component } from 'react';
 import { View, Text, Image, StyleSheet } from 'react-native';
-import shopping from './shopping.png';
-const PositionReactNative = () => {
+import shopping from '../../assets/icon/shopping.png';
+
+const Position= () => {
     return (
         <View style={styles.bungkus}>
             <Text style={{fontSize: 24, fontWeight: 'bold', marginBottom: 10}}>Materi Position</Text>
@@ -59,4 +60,4 @@ const styles = StyleSheet.create({
     }
 })
 
-export default PositionReactNative;
+export default Position;

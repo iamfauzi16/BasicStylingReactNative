@@ -1,6 +1,6 @@
 import React from 'react';
 import  {View, Text, Image} from 'react-native';
-import macbook from './macbook.jpg';
+import macbook from '../../assets/image/macbook.jpg';
 const DinamisComponent = () => {
     return (
       <View style={{padding: 12, backgroundColor: '#f2f2f2' , width: 212, borderRadius: 8 , marginTop: 20}}>

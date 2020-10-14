@@ -2,7 +2,7 @@ import React from 'react';
 import { Text, View, Image, TextInput, StyleSheet} from 'react-native';
 
 
-const StylingReactNativeComponent = () => {
+const Styling = () => {
     return (
       <View>
         <Text style={styles.Text}>Styling React Native</Text>
@@ -36,4 +36,4 @@ const styles = StyleSheet.create({
     }
     
   })
-  export default StylingReactNativeComponent;
+  export default Styling;

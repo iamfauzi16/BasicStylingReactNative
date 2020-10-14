@@ -8,22 +8,23 @@
 
 import React from 'react';
 import { View, ScrollView } from 'react-native';
-import SampleComponent from './SampleComponent';
-import StylingReactNativeComponent from './StylingReactNative';
-import DinamisComponent from './DinamisComponent';
-import MateriFlexBox from './MateriFlexBox';
-import PositionReactNative from './PositionReactNative';
+import SampleComponent from './pages/SampleComponent';
+import Position from './pages/Position';
+import FlexBox from './pages/FlexBox';
+import DinamisComponent from './pages/DinamisComponent';
+import Styling from './pages/Styling';
+
 
 //! ini adalah function component menggunakan function atau arrow function ()=>
 const App = () => {
   return (
     <View>
       <ScrollView>
-        {/* <PositionReactNative /> */}
-        <MateriFlexBox />
-        {/* <DinamisComponent />
-        <StylingReactNativeComponent />
-        <SampleComponent /> */}
+        <Position />
+        <FlexBox />
+        <DinamisComponent />
+        <Styling />
+        <SampleComponent />
       </ScrollView>
     </View>
 
