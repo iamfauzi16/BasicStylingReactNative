@@ -9,7 +9,31 @@ import { Image, Text, View, StyleSheet } from 'react-native';
 
 
 class FlexBox extends Component {
+    constructor(props) {
+        super(props);
+        console.log('==> constructor')
+        this.state = {
+            subscriber: 200,
+        };
+    }
+
+    componentDidMount() {
+        console.log('==> componentDidMount')
+        setTimeout(() => {
+            this.setState({
+                subscriber: 670,
+    
+            });
+
+        }, 2000);
+    }
+
+    componentDidUpdate() {
+        console.log('==> componentDidUpdate')
+    }
+
     render () {
+        console.log('==> Render')
         return (
             <View>
                 {/* Menu Bar */}
@@ -36,6 +60,7 @@ class FlexBox extends Component {
                 <View style={{flexDirection: 'row', justifyContent: 'space-around', marginTop: 20}}>
                     <View>
                         <Text style={styles.header}>Post</Text>
+                        <Text style={styles.paragraf}>{this.state.subscriber}</Text>
                     </View>
 
                     <View>

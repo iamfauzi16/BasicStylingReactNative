@@ -13,18 +13,22 @@ import Position from './pages/Position';
 import FlexBox from './pages/FlexBox';
 import DinamisComponent from './pages/DinamisComponent';
 import Styling from './pages/Styling';
+import PropsDinamis from './pages/PropsDinamis';
+import StateDinamis from './pages/StateDinamis';
 
 
 //! ini adalah function component menggunakan function atau arrow function ()=>
-const App = () => {
+const App = () => { 
   return (
     <View>
       <ScrollView>
-        <Position />
-        <FlexBox />
-        <DinamisComponent />
+        {/* <Position /> */}
+        {/* <FlexBox /> */}
+        {/* <DinamisComponent />
         <Styling />
-        <SampleComponent />
+        <SampleComponent /> */}
+        {/* <PropsDinamis /> */}
+        <StateDinamis />
       </ScrollView>
     </View>
 
